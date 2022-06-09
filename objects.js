@@ -13,7 +13,7 @@ var foods = {
 
 // Write code that prints all of the 'keys' of the foods variable
 // you created above:
-console.log(Object.keys(foods));
+console.log(Object.values(foods));
 
 // Write code that prints all of the 'values' of the foods variable
 // you created above:
