@@ -108,3 +108,28 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+emails = [
+  {
+  sender: "Beth",
+  subject: "Turing Question",
+  message: "How do we use and Array and an Object together?",
+  recipient: "Turing school",
+  time: "2pm"
+  },
+  {
+  sender: "Jack",
+  subject: "Turing Question",
+  message: "How do we use and Array and an Object together?",
+  recipient: "Turing school",
+  time: "2pm"
+  },
+  {
+  sender: "Tom",
+  subject: "Turing Question",
+  message: "How do we use and Array and an Object together?",
+  recipient: "Turing school",
+  time: "2pm"
+  }
+];
+console.log(emails);
+console.log(emails[0]);
