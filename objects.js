@@ -13,19 +13,20 @@ var foods = {
 
 // Write code that prints all of the 'keys' of the foods variable
 // you created above:
-console.log(Object.values(foods));
+console.log(Object.keys(foods));
 
 // Write code that prints all of the 'values' of the foods variable
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(foods));
 
 // Write code that prints the value of the second food of the foods variable
 // you created above:
-// YOUR CODE HERE
+console.log(foods.grapes);
 
 // Write code that adds a food to the foods object.
 // Then, print the updated object:
-// YOUR CODE HERE
+console.log(foods.limes = 32);
+console.log(Object.keys(foods));
 
 
 //#-------------------
@@ -38,17 +39,25 @@ console.log(Object.values(foods));
 
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-
+var bethEmail = {
+  sender: "Beth",
+  subject: "Turing Question",
+  message: "How do we use and Array and an Object together?",
+  recipient: "Turing school",
+  time: "2pm"
+}
 // Write code that logs your email object to the terminal.
+console.log(bethEmail);
 
 
 // Write code that logs all of the 'keys' of the email object
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(bethEmail));
+
 
 // Write code that logs all of the 'values' of the email object
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(bethEmail));
 
 
 //#-------------------
